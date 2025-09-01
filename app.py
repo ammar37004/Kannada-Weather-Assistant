@@ -20,7 +20,7 @@ else:
 
 app = Flask(__name__)
 
-API_KEY = "bebcedeb618edd352d08eab17e748f86"
+API_KEY = ""
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 # Custom list of Kannada stopwords
@@ -144,4 +144,5 @@ def get_weather():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 
